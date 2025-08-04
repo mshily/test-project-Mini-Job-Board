@@ -1,0 +1,28 @@
+{
+  "name": "test-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "laravel-vite-plugin": "^2.0.0",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.0.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp ../serve_php/job-board-backend/public/react/index.html ../serve_php/job-board-backend/resources/views/list.blade.php"
+  }
+}

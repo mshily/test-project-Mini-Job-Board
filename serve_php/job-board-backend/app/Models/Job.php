@@ -6,7 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Job extends Model
 {
-    protected $fillable = ['title','location','is_remote'];
+    protected $fillable = ['title', 'description', 'contact_email', 'location', 'is_remote', 'tags'];
 
-
+    protected $casts = [
+        'is_remote' => 'boolean',
+        'tags' => 'array',
+    ];
 }
