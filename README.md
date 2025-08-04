@@ -49,25 +49,25 @@ cd job-board-app
 # 2.1 Copy & configure your environment file
 cp .env.example .env
 
-# 2.2 Edit `.env` and set your database and app settings:
-#   APP_URL=http://127.0.0.1:8000
-#   DB_CONNECTION=mysql
-#   DB_HOST=127.0.0.1
-#   DB_PORT=3306
-#   DB_DATABASE=your_database_name
-#   DB_USERNAME=your_database_user
-#   DB_PASSWORD=your_database_password
+2.2 Edit `.env` and set your database and app settings:
+   APP_URL=http://127.0.0.1:8000
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_database_user
+   DB_PASSWORD=your_database_password
 
-# 2.3 Generate your application key
+2.3 Generate your application key
 php artisan key:generate
 
-# 2.4 Run your migrations
+2.4 Run your migrations
 php artisan migrate
 
-# 2.5 (Optional) Seed the database with demo data
+2.5 (Optional) Seed the database with demo data
 php artisan db:seed
 
-# 2.6 Start the Laravel development server
+2.6 Start the Laravel development server
 php artisan serve
 # By default this will run at http://127.0.0.1:8000
 
