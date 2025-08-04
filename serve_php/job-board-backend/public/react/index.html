@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/react/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-    <script type="module" crossorigin src="/react/assets/index-CEUKCls0.js"></script>
-    <link rel="stylesheet" crossorigin href="/react/assets/index-CGpoOeGw.css">
+    <script type="module" crossorigin src="/react/assets/index-BocXMIUY.js"></script>
+    <link rel="stylesheet" crossorigin href="/react/assets/index-CPJa9rc5.css">
   </head>
   <body>
     <div id="root"></div>
